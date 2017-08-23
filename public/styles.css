@@ -1,0 +1,102 @@
+a {
+  text-decoration: none;
+}
+
+#addressBox {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#eduAndSkillsBox {
+  width: 120px;
+  height: 300px;
+  /*border-style: solid;*/
+  /*border-width: thin;*/
+  /*border-color: grey;*/
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-align: right;
+  float: left;
+  padding-right: 50px;
+}
+
+
+h1 {
+  font-family: sans-serif;
+  color: blue;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 20px;
+}
+
+#humanBox {
+  padding: 0 100px;
+  width: 600px;
+  /*border-style: solid;*/
+  /*border-color: grey;*/
+  /*border-width: 1px;*/
+  height: 400px;
+  /*display: flex;*/
+  /*flex-flow: row wrap;*/
+}
+
+#humanPicture {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 90px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+}
+
+.jobField {
+  font-family: sans-serif;
+  color: grey;
+}
+
+.jobSearch {
+  font-family: sans-serif;
+  color: fuchsia;
+}
+
+.nameField {
+  font-family: sans-serif;
+  color: lightBlue;
+  font-size: 1.5em;
+  margin: 0 0 0 5px;
+}
+
+#paddingHurrDurr {
+  padding: 30px 0;
+  /*margin: 50px 0;*/
+}
+
+#userAddress p {
+  width: 300px;
+  margin:
+}
+
+.userBox {
+  width: 250px;
+  /*border-color: grey;*/
+  /*border-radius: 5px;*/
+  /*border-width: thin;*/
+  /*border-style: solid;*/
+  margin: 5px;
+}
+
+.userBox img {
+  margin: 0 50px;
+}
+
+#userEduAndSkillsBox {
+  font-family: sans-serif;
+}

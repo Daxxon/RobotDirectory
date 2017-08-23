@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User</title>
+      <link rel="stylesheet" type="text/css" href="../../styles.css">
+  </head>
+  <body>
+    <!-- insert shit here -->
+    <div id="humanBox">
+      <img id="humanPicture" src={{avatar}}></img>
+      <h1>{{name}}</h1>
+      <div id="addressBox">
+        <p id="userAddress">{{#address.city}}{{address.city}}, {{/address.city}}{{address.country}} | {{#job}}{{job}}, {{company}}{{/job}}{{^job}}<p>Available for hire</p>{{/job}}</p>
+      </div>
+      <div id="paddingHurrDurr"></div>
+      <div id="eduAndSkillsBox">
+        <!-- <div>Education</div>
+        <div>Skills</div> -->
+        {{#university}}
+          <p>Education</p>
+        {{/university}}
+        <p>Skills</p>
+      </div>
+      <div id="userEduAndSkillsBox">
+        {{#university}}
+          <p>{{university}}</p>
+        {{/university}}
+        {{#skills}}
+          <p>{{.}}</p>
+        {{/skills}}
+      </div>
+    </p>
+  </body>
+</html>
